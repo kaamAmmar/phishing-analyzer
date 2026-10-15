@@ -1,0 +1,13 @@
+From: "Boutique Example" <promo@boutique.example>
+Reply-To: contact@mailing-service.example
+To: client@mail.example
+Subject: Nos offres de la semaine
+Date: Mon, 12 Oct 2026 09:30:00 +0000
+Message-ID: <promo-002@boutique.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Découvrez nos nouveautés !</p>
+<p><a href="https://bit.ly/offres-semaine">Voir les offres</a></p>
+</body></html>

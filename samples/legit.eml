@@ -1,0 +1,14 @@
+From: Service Client <contact@banque-exemple.example>
+To: client@exemple.example
+Subject: Votre relevé mensuel est disponible
+Date: Tue, 13 Oct 2026 09:15:00 +0100
+Authentication-Results: mx.exemple.example; spf=pass smtp.mailfrom=banque-exemple.example; dkim=pass header.d=banque-exemple.example; dmarc=pass header.from=banque-exemple.example
+Content-Type: text/plain; charset=utf-8
+
+Bonjour,
+
+Votre relevé du mois de septembre est disponible dans votre espace client.
+Pour le consulter, rendez-vous sur https://www.banque-exemple.example/espace-client
+
+Cordialement,
+Le service client

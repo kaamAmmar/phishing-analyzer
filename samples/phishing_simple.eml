@@ -1,0 +1,28 @@
+From: "PayPal Support" <security@paypa1-secure.example>
+Reply-To: helpdesk@collector.test
+To: victim@mail.example
+Subject: URGENT: Your account will be suspended
+Date: Mon, 12 Oct 2026 10:15:00 +0000
+Message-ID: <phish-003@paypa1-secure.example>
+Authentication-Results: mx.mail.example; spf=fail smtp.mailfrom=paypa1-secure.example; dkim=none; dmarc=fail header.from=paypa1-secure.example
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/plain; charset="utf-8"
+
+Dear customer,
+We detected unusual activity. Verify your account immediately:
+http://paypa1-secure.example/login
+Your account will be suspended within 24 hours.
+
+--BOUNDARY1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We detected unusual activity. Please verify your account immediately.</p>
+<p><a href="http://paypa1-secure.example/login">www.paypal.com/verify</a></p>
+<p>Need help? <a href="http://bit.ly/paypal-help">Contact support</a></p>
+</body></html>
+--BOUNDARY1--

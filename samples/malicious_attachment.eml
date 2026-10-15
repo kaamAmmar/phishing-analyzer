@@ -1,0 +1,23 @@
+From: "Service Facturation" <factures@fournisseur-docs.example>
+To: comptabilite@mail.example
+Subject: Facture impayée - dernier avertissement
+Date: Mon, 12 Oct 2026 11:45:00 +0000
+Message-ID: <invoice-004@fournisseur-docs.example>
+Authentication-Results: mx.mail.example; spf=softfail smtp.mailfrom=fournisseur-docs.example; dkim=none; dmarc=none
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY2"
+
+--BOUNDARY2
+Content-Type: text/plain; charset="utf-8"
+
+Bonjour,
+Votre facture est en retard. Ouvrez immédiatement la pièce jointe pour éviter des poursuites.
+
+--BOUNDARY2
+Content-Type: application/octet-stream; name="Facture_8841.pdf.exe"
+Content-Disposition: attachment; filename="Facture_8841.pdf.exe"
+Content-Transfer-Encoding: base64
+
+RkFLRSBURVNUIEZJTEUgLSB0aGlzIGlzIE5PVCBhIHJlYWwgZXhlY3V0YWJsZS4gQ3JlYXRlZCBm
+b3IgdGhlIHBoaXNoaW5nLWFuYWx5emVyIGRlbW8u
+--BOUNDARY2--
